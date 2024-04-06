@@ -67,7 +67,7 @@ fi
 
 # Ejecutar si el archivo no existe
 if [ ! -e "$file" ]; then
-    echo "Error"
+    echo "Error. El archivo especificado no existe."
     exit 1
 
 # Ejecutar si el archivo existe
