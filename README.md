@@ -50,5 +50,7 @@ Si se ejecuta de nuevo el archivo con los mismos parámetros, se observa que se 
 
 Finalmente, para comprobar que se asignaron los permisos correctamente, se ejecuta el comando `$ ls -l`. Esto muestra que el grupo `familia` tiene permiso de ejecución para el archivo `ejercicio1.sh`.
 
+![ejercicio2.sh](images/3.png)
+
 ## Conclusiones y recomendaciones
 ## Referencias
