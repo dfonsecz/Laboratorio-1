@@ -35,6 +35,8 @@ Para esta segunda parte, primero se comprobó que no existe un usuario llamado *
 
 Al reingresar el comando `$ id johnny`, se observa que ahora sí aparece que existe un usuario con ese nombre. Además, es parte del grupo `familia`.
 
+Adicionalmente, al ejecutar el mismo comando con el usuario `$ id danny`, el cual es mi usuario, se comprueba que también pasé a formar parte del grupo `familia`.
+
 ![ejercicio2.sh](images/2.png)
 
 ## Conclusiones y recomendaciones
