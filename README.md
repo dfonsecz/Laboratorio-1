@@ -12,9 +12,9 @@ Como primera parte del procedimiento, se creó un script de bash llamado `ejerci
 Una vez confirmada la existencia del archivo, se ejecuta lo siguiente:
 1. Se obtienen los permisos del archivo, y se almacenan dentro de una variable como un string.
 2. Una vez obtenidos los permisos, ejecuta una función llamada `get_permissions_verbose`. Esta recibe como parámetro el string de permisos del archivo. Se encarga de:
-- Guardar los permisos en tres variables diferentes, para distinguir los de usuario, grupo y otros.
-- Interpretar estas variables como permisos read, write, execute o unknown.
-- Imprimir para usuario, grupo y otros, todos los permisos pertinentes identificados.
+> - Guardar los permisos en tres variables diferentes, para distinguir los de usuario, grupo y otros.
+> - Interpretar estas variables como permisos read, write, execute o unknown.
+> - Imprimir para usuario, grupo y otros, todos los permisos pertinentes identificados.
 
 #### Limitar permisos
 ### Bash scripting
