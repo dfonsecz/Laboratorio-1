@@ -17,6 +17,8 @@ Una vez confirmada la existencia del archivo, se ejecuta lo siguiente:
 > - Imprimir para usuario, grupo y otros, todos los permisos pertinentes identificados.
 
 #### Limitar permisos
+Adicionalmente, se creó otro archivo con el nombre de `ejercicio2.sh`. La finalidad principal de este archivo es de limitar los permisos de ejecución de otro archivo.
+
 ### Bash scripting
 ## Resultados
 ### Interpretar permisos
