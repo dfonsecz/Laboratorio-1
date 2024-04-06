@@ -5,10 +5,13 @@
 ## Introducción
 ## Implementación
 ### Scripting y Permisos
-Como primera parte del procedimiento, se creó un script de bash llamado `ejercicio1.sh`. Este script recibe como parámetro el nombre de un archivo. Al ejecutarse, imprime los permisos del usuario activo, del grupo y otros.
+
 #### Interpretar permisos
+Como primera parte del procedimiento, se creó un script de bash llamado `ejercicio1.sh`. Este script recibe como parámetro el nombre de un archivo. Al ejecutarse, verifica la existencia del archivo que recibió como parámetro. De ser lo contrario, se presenta un código de error al usuario.
 #### Limitar permisos
 ### Bash scripting
 ## Resultados
+### Interpretar permisos
+Al ejercutar el archivo `ejercicio1.sh`, ingresando como parámetro un nombre de archivo cualquiera como `test.txt`, se muestra un mensaje de error que indica que ese archivo no existe.
 ## Conclusiones y recomendaciones
 ## Referencias
