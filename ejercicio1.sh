@@ -2,7 +2,7 @@
 
 # Funciones
 
-get_permissions() {
+get_permissions_verbose() {
     local permissions=$1 # Configura variable 
 
     # Funcion para interpretar los permisos como read, write, execute o unknown
@@ -76,7 +76,7 @@ else
     permissions="$(stat -c "%A" "$file")"
 
     # Llamar a la funcion get_permissions
-    get_permissions "$permissions"
+    get_permissions_verbose "$permissions"
 
     exit 0
 fi
