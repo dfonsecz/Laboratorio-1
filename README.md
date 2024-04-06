@@ -3,7 +3,13 @@
 #### B93070 Daniela Fonseca Zumbado
 ---
 # Laboratorio 1
+
 ## Introducción
+
+Bash es el proyecto de GNU que pasó a conocerse como el Shell de Linux. Su utilidad hoy en día es 
+
+A través de este reporte, se discutirá la implementación y los resultados obtenidos para tres ejercicios que permiten ilustrar la utilidad de las funciones con las que cuenta la herramienta de Bash.
+
 ## Implementación
 ### Scripting y Permisos
 
