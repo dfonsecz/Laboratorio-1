@@ -5,6 +5,7 @@
 ## Introducción
 ## Implementación
 ### Scripting y Permisos
+Como primera parte del procedimiento, se creó un script de bash llamado `ejercicio1.sh`. Este script recibe como parámetro el nombre de un archivo. Al ejecutarse, imprime los permisos del usuario activo, del grupo y otros.
 #### Interpretar permisos
 #### Limitar permisos
 ### Bash scripting
