@@ -8,6 +8,14 @@
 
 #### Interpretar permisos
 Como primera parte del procedimiento, se creó un script de bash llamado `ejercicio1.sh`. Este script recibe como parámetro el nombre de un archivo. Al ejecutarse, verifica la existencia del archivo que recibió como parámetro. De ser lo contrario, se presenta un código de error al usuario.
+
+Una vez confirmada la existencia del archivo, se ejecuta lo siguiente:
+1. Se obtienen los permisos del archivo, y se almacenan dentro de una variable como un string.
+2. Una vez obtenidos los permisos, ejecuta una función llamada `get_permissions_verbose`. Esta recibe como parámetro el string de permisos del archivo. Se encarga de:
+a. Guardar los permisos en tres variables diferentes, para distinguir los de usuario, grupo y otros.
+b. Interpretar estas variables como permisos read, write, execute o unknown.
+c. Imprimir para usuario, grupo y otros, todos los permisos pertinentes identificados.
+
 #### Limitar permisos
 ### Bash scripting
 ## Resultados
