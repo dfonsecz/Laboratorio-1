@@ -40,6 +40,8 @@ while getopts "hm:d:" opt; do
     (...)
 ```
 
+Para guardar la información pertinente en un archivo, se hace uso de condicionales, así como una combinación de los comandos `cat`, `grep` y `awk`. El destino del archivo `error_logs.txt` es dentro de la carpeta de `system_logs`.
+
 ## Resultados
 
 ### 1 - Interpretar permisos
