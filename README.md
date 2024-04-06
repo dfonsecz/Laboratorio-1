@@ -6,7 +6,7 @@
 
 ## Introducción
 
-Bash es el intérprete de comandos estándar para la mayoría de sistemas operativos que se encuentran basados en Unix o Linux. De hecho, corresponde al shell del proyecto GNU, el cual tiene un amplio uso hoy en día para ciertas funciones, como lo es por ejemplo la administración de sistemas.
+Bash es el intérprete de comandos estándar para la mayoría de sistemas operativos que se encuentran basados en Unix o Linux. De hecho, corresponde al shell del proyecto GNU, el cual tiene un amplio uso hoy en día para ciertas funciones, como lo es por ejemplo la administración de sistemas [1].
 
 A través de este reporte, se discutirá la implementación y los resultados obtenidos para tres ejercicios que permiten ilustrar la utilidad de las funciones con las que cuenta la herramienta de Bash.
 
@@ -35,7 +35,7 @@ Adicionalmente, se creó otro archivo con el nombre de `ejercicio2.sh`. La final
 
 Para este último script `ejercicio3.sh`, el objetivo es que, después de ejecutar el archivo, el sistema le solicite al usuario que ingrese los comandos que desee que se ejecuten (los cuales se pueden referenciar en el menú de ayuda). Estos comandos deben permitir filtrar por modo, fecha o ambas, así como volver a imprimir el menú de ayuda en caso de que el usuario lo requiera.
 
-Para lograr extraer las opciones y argumentos que indica el usuario, se utiliza una combinación de un while loop, el comando getopts y case, donde se indica de la siguiente manera para evitar que se espere un argumento que acompañe al comando `-h`.
+Para lograr extraer las opciones y argumentos que indica el usuario, se utiliza una combinación de un while loop, el comando getopts [2] y case, donde se indica de la siguiente manera para evitar que se espere un argumento que acompañe al comando `-h`.
 
 ```
 while getopts "hm:d:" opt; do
@@ -104,4 +104,6 @@ Al ingresar `-m servidor_web -d 2024-03-04`, se guardan en el archivo los errore
 
 ## Referencias
 
-[1] Linux/UNIX system programming training, “General Commands Manual,” bash(1) — Linux manual page, https://www.man7.org/linux/man-pages/man1/bash.1.html. 
+[1] “GNU Bash,” GNU Operating System, https://www.gnu.org/software/bash/. 
+[2] H. Sundaray, “How to use bash getopts with examples,” KodeKloud, https://kodekloud.com/blog/bash-getopts/. 
+[3] Linux/UNIX system programming training, “General Commands Manual,” bash(1) — Linux manual page, https://www.man7.org/linux/man-pages/man1/bash.1.html. 
