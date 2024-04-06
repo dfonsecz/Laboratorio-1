@@ -79,3 +79,5 @@ Al ingresar `-m servidor_web -d 2024-03-04`, se guardan en el archivo los errore
 
 ## Conclusiones y recomendaciones
 ## Referencias
+
+[1] Linux/UNIX system programming training, “General Commands Manual,” bash(1) — Linux manual page, https://www.man7.org/linux/man-pages/man1/bash.1.html. 
