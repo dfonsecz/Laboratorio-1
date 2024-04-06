@@ -105,5 +105,7 @@ Al ingresar `-m servidor_web -d 2024-03-04`, se guardan en el archivo los errore
 ## Referencias
 
 [1] “GNU Bash,” GNU Operating System, https://www.gnu.org/software/bash/. 
+
 [2] H. Sundaray, “How to use bash getopts with examples,” KodeKloud, https://kodekloud.com/blog/bash-getopts/. 
+
 [3] Linux/UNIX system programming training, “General Commands Manual,” bash(1) — Linux manual page, https://www.man7.org/linux/man-pages/man1/bash.1.html. 
