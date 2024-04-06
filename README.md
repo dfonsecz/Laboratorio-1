@@ -27,7 +27,13 @@ Al ejecutar el archivo `ejercicio1.sh`, ingresando como parámetro un nombre de 
 
 Se repite el procedimiento, pero esta vez ingresando como parámetro el archivo `prueba.txt`, que en teoría sí existe en la carpeta. Al ejecutar el archivo, se muestra una lista de permisos, que corresponden a los del archivo ingresado como parámetro. Para confirmar que estén correctos, se ejecuta el comando `$ ls -l` en la terminal. Esto muestra los permisos de todos los archivos dentro de la carpeta y permite confirmar que coinciden con los resultados de la interpretación.
 
-![alt text](images/1.png)
+![ejercicio1.sh](images/1.png)
+
+### Limitar permisos
+
+Para esta segunda parte, primero se comprobó que no existe un usuario llamado johnny, con el comando `$ id johnny`. Una vez hecho esto, se ejecutó el archivo `ejercicio2.sh`, utilizando como parámetros el usuario `johnny` y el grupo `familia`.
+
+![ejercicio2.sh](images/2.png)
 
 ## Conclusiones y recomendaciones
 ## Referencias
