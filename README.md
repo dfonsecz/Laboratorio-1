@@ -6,7 +6,7 @@
 
 ## Introducción
 
-Bash es el proyecto de GNU que pasó a conocerse como el Shell de Linux. Su utilidad hoy en día es 
+Bash es el intérprete de comandos estándar para la mayoría de sistemas operativos que se encuentran basados en Unix o Linux. De hecho, corresponde al shell del proyecto GNU, el cual tiene un amplio uso hoy en día para ciertas funciones.
 
 A través de este reporte, se discutirá la implementación y los resultados obtenidos para tres ejercicios que permiten ilustrar la utilidad de las funciones con las que cuenta la herramienta de Bash.
 
