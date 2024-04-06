@@ -53,5 +53,13 @@ Finalmente, para comprobar que se asignaron los permisos correctamente, se ejecu
 
 ![ejercicio2.sh](images/3.png)
 
+3 - Bash scripting
+
+Para este último script, al ejecutar el archivo inicialmente (sin ningún parámetro), se imprime un menú de ayuda que muestra las opciones y un ejemplo de cómo utilizar el programa. Después de eso, es posible observar que solicita una opción para ingresar las opciones que se quiere que sean ejecutadas, las cuales corresponden a las que se indican en el menú.
+
+Al ingresar el comando `-h`, se imprime de nuevo el menú de ayuda.
+
+
+
 ## Conclusiones y recomendaciones
 ## Referencias
