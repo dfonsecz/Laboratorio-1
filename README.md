@@ -73,5 +73,7 @@ Al especificar alguna opción de modo o fecha, se genera un archivo dentro de la
 
 Al ingresar `-m servidor_web -d 2024-03-04`, se guardan en el archivo los errores ocurridos en el modo **_servidor_web_** y la fecha del **_04/03/2024_**.
 
+![ejercicio3.sh](images/7.png)
+
 ## Conclusiones y recomendaciones
 ## Referencias
