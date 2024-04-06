@@ -59,6 +59,11 @@ Para este último script, al ejecutar el archivo inicialmente (sin ningún pará
 
 Al ingresar el comando `-h`, se imprime de nuevo el menú de ayuda.
 
+![ejercicio3.sh](images/4.png)
+
+Al especificar alguna opción de modo o fecha, se genera un archivo dentro de la carpeta de system_logs, que identifica todos los errores relacionados con las opciones ingresadas. A continuación algunos ejemplos.
+
+1. Al ingresar `-m monitoreo` se filtran todos los errores relacionados con monitoreo para todas las fechas disponibles.
 
 
 ## Conclusiones y recomendaciones
