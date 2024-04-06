@@ -14,7 +14,7 @@ A través de este reporte, se discutirá la implementación y los resultados obt
 ### Scripting y Permisos
 
 #### 1 - Interpretar permisos
-Como primera parte del procedimiento, se creó un script de bash llamado `ejercicio1.sh`. Este script recibe como parámetro el nombre de un archivo. Al ejecutarse, verifica la existencia del archivo que recibió como parámetro. De ser lo contrario, se presenta un código de error al usuario.
+Como primera parte del procedimiento, se creó un script de bash llamado [`ejercicio1.sh`](https://github.com/dfonsecz/Laboratorio-1/blob/main/ejercicio1.sh). Este script recibe como parámetro el nombre de un archivo. Al ejecutarse, verifica la existencia del archivo que recibió como parámetro. De ser lo contrario, se presenta un código de error al usuario.
 
 Una vez confirmada la existencia del archivo, se ejecuta lo siguiente:
 1. Se obtienen los permisos del archivo, y se almacenan dentro de una variable como un string.
@@ -24,7 +24,7 @@ Una vez confirmada la existencia del archivo, se ejecuta lo siguiente:
 > - Imprimir para usuario, grupo y otros, todos los permisos pertinentes identificados.
 
 #### 2 - Limitar permisos
-Adicionalmente, se creó otro archivo con el nombre de `ejercicio2.sh`. La finalidad principal de este archivo es de limitar los permisos de ejecución de otro archivo. Este archivo tiene las siguientes funciones:
+Adicionalmente, se creó otro archivo con el nombre de [`ejercicio2.sh`](https://github.com/dfonsecz/Laboratorio-1/blob/main/ejercicio2.sh). La finalidad principal de este archivo es de limitar los permisos de ejecución de otro archivo. Este archivo tiene las siguientes funciones:
 1. Recibe dos strings, uno con un nombre de usuario y otro con un nombre de un grupo.
 2. Intenta crear un nuevo usuario con el nombre proporcionado. En caso de que ya exista, informa de esto, pero continúa con el procedimiento.
 3. Intenta crear un nuevo grupo con el nombre proporcionado. En caso de que ya exista, también informa de esto, pero continúa con el procedimiento.
@@ -33,7 +33,7 @@ Adicionalmente, se creó otro archivo con el nombre de `ejercicio2.sh`. La final
 
 ### 3 - Bash scripting
 
-Para este último script `ejercicio3.sh`, el objetivo es que, después de ejecutar el archivo, el sistema le solicite al usuario que ingrese los comandos que desee que se ejecuten (los cuales se pueden referenciar en el menú de ayuda). Estos comandos deben permitir filtrar por modo, fecha o ambas, así como volver a imprimir el menú de ayuda en caso de que el usuario lo requiera.
+Para este último script [`ejercicio3.sh`](https://github.com/dfonsecz/Laboratorio-1/blob/main/ejercicio3.sh), el objetivo es que, después de ejecutar el archivo, el sistema le solicite al usuario que ingrese los comandos que desee que se ejecuten (los cuales se pueden referenciar en el menú de ayuda). Estos comandos deben permitir filtrar por modo, fecha o ambas, así como volver a imprimir el menú de ayuda en caso de que el usuario lo requiera.
 
 Para lograr extraer las opciones y argumentos que indica el usuario, se utiliza una combinación de un while loop, el comando getopts [[2]](https://github.com/dfonsecz/Laboratorio-1?tab=readme-ov-file#referencias) y case, donde se indica de la siguiente manera para evitar que se espere un argumento que acompañe al comando `-h`.
 
