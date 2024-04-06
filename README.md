@@ -65,6 +65,7 @@ Al especificar alguna opción de modo o fecha, se genera un archivo dentro de la
 
 1. Al ingresar `-m monitoreo` se filtran todos los errores relacionados con monitoreo para todas las fechas disponibles.
 
+![ejercicio3.sh](images/5.png)
 
 ## Conclusiones y recomendaciones
 ## Referencias
