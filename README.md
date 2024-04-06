@@ -27,6 +27,8 @@ Adicionalmente, se creó otro archivo con el nombre de `ejercicio2.sh`. La final
 
 ### 3 - Bash scripting
 
+Para este último script `ejercicio3.sh`, el objetivo es que, después de ejecutar el archivo, el sistema le solicite al usuario que ingrese los comandos que desee que se ejecuten (los cuales se pueden referenciar en el menú de ayuda). Estos comandos deben permitir filtrar por modo, fecha o ambas, así como volver a imprimir el menú de ayuda en caso de que el usuario lo requiera.
+
 ## Resultados
 
 ### 1 - Interpretar permisos
