@@ -67,7 +67,11 @@ Al especificar alguna opción de modo o fecha, se genera un archivo dentro de la
 
 ![ejercicio3.sh](images/5.png)
 
-2. Al ingresar `-d 2024-03-02` aparecen errores variados pero ocurridos únicamente el 02/03/2024.
+2. Al ingresar `-d 2024-03-02` aparecen errores variados pero ocurridos únicamente el **_02/03/2024_**.
+
+![ejercicio3.sh](images/6.png)
+
+Al ingresar `-m servidor_web -d 2024-03-04`, se guardan en el archivo los errores ocurridos en el modo **_servidor_web_** y la fecha del **_04/03/2024_**.
 
 ## Conclusiones y recomendaciones
 ## Referencias
