@@ -13,5 +13,6 @@ Como primera parte del procedimiento, se creó un script de bash llamado `ejerci
 ## Resultados
 ### Interpretar permisos
 Al ejercutar el archivo `ejercicio1.sh`, ingresando como parámetro un nombre de archivo cualquiera como `test.txt`, se muestra un mensaje de error que indica que ese archivo no existe.
+![alt text](images/1.png)
 ## Conclusiones y recomendaciones
 ## Referencias
