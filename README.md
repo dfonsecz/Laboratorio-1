@@ -16,6 +16,8 @@ Como primera parte del procedimiento, se creó un script de bash llamado `ejerci
 Al ejecutar el archivo `ejercicio1.sh`, ingresando como parámetro un nombre de archivo cualquiera como `test.txt`, se muestra un mensaje de error que indica que ese archivo no existe. Se verifica con el comando `$ ls` que dentro de la carpeta actual no existe ningún archivo con el nombre proporcionado. Sin embargo, existe un archivo con el nombre `prueba.txt`.
 
 Se repite el procedimiento, pero esta vez ingresando como parámetro el archivo `prueba.txt`, que en teoría sí existe en la carpeta. Al ejecutar el archivo, se muestra una lista de permisos, que corresponden a los del archivo ingresado como parámetro. Para confirmar que estén correctos, se ejecuta el comando `$ ls -l` en la terminal. Esto muestra los permisos de todos los archivos dentro de la carpeta y permite confirmar que coinciden con los resultados de la interpretación.
+
 ![alt text](images/1.png)
+
 ## Conclusiones y recomendaciones
 ## Referencias
