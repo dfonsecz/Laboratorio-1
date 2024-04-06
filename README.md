@@ -12,7 +12,8 @@ Como primera parte del procedimiento, se creó un script de bash llamado `ejerci
 ### Bash scripting
 ## Resultados
 ### Interpretar permisos
-Al ejercutar el archivo `ejercicio1.sh`, ingresando como parámetro un nombre de archivo cualquiera como `test.txt`, se muestra un mensaje de error que indica que ese archivo no existe.
+Al ejecutar el archivo `ejercicio1.sh`, ingresando como parámetro un nombre de archivo cualquiera como `test.txt`, se muestra un mensaje de error que indica que ese archivo no existe.
+Se verifica con el comando `ls` que dentro de la carpeta actual no existe ningún archivo con el nombre proporcionado. Sin embargo, existe un archivo con el nombre `prueba.txt`.
 ![alt text](images/1.png)
 ## Conclusiones y recomendaciones
 ## Referencias
