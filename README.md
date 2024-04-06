@@ -6,7 +6,7 @@
 
 ## Introducción
 
-Bash es el intérprete de comandos estándar para la mayoría de sistemas operativos que se encuentran basados en Unix o Linux. De hecho, corresponde al shell del proyecto GNU, el cual tiene un amplio uso hoy en día para ciertas funciones.
+Bash es el intérprete de comandos estándar para la mayoría de sistemas operativos que se encuentran basados en Unix o Linux. De hecho, corresponde al shell del proyecto GNU, el cual tiene un amplio uso hoy en día para ciertas funciones, como lo es por ejemplo la administración de sistemas.
 
 A través de este reporte, se discutirá la implementación y los resultados obtenidos para tres ejercicios que permiten ilustrar la utilidad de las funciones con las que cuenta la herramienta de Bash.
 
@@ -97,6 +97,11 @@ Al ingresar `-m servidor_web -d 2024-03-04`, se guardan en el archivo los errore
 ![ejercicio3.sh](images/7.png)
 
 ## Conclusiones y recomendaciones
+
+1. Por medio de estos ejercicios, se evidencia la versatilidad de la herramienta de Bash, que puede cubrir una amplia variedad de tareas. Entre ellos, tareas de administración del sistema y de manipulación de archivos.
+2. Bash también cuenta con una sintaxis sencilla, pero poderosa, que no tiene una alta dificultad de aprendizaje.
+3. Como recomendación, es de suma importancia revisar la documentación que ofrecen los desarrolladores, que es de mucha utilidad a la hora de desarrollar ejercicios en esta herramienta.
+
 ## Referencias
 
 [1] Linux/UNIX system programming training, “General Commands Manual,” bash(1) — Linux manual page, https://www.man7.org/linux/man-pages/man1/bash.1.html. 
