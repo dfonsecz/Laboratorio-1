@@ -33,7 +33,7 @@ Se repite el procedimiento, pero esta vez ingresando como parámetro el archivo 
 
 Para esta segunda parte, primero se comprobó que no existe un usuario llamado **_johnny_**, con el comando `$ id johnny`. Una vez hecho esto, se ejecutó el archivo `ejercicio2.sh`, utilizando como parámetros el usuario `johnny` y el grupo `familia`. En la figura es posible observar que, al no existir un usuario ni un grupo con esos nombres, el sistema los crea.
 
-Al reingresar el comando `$ id johnny`, se observa que ahora sí aparece que existe un usuario con ese nombre. Y que es parte del grupo `familia`.
+Al reingresar el comando `$ id johnny`, se observa que ahora sí aparece que existe un usuario con ese nombre. Además, es parte del grupo `familia`.
 
 ![ejercicio2.sh](images/2.png)
 
